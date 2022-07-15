@@ -1,0 +1,5 @@
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_13\obj\Debug\net6.0\Sem_02_Task_13.csproj.AssemblyReference.cache
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_13\obj\Debug\net6.0\Sem_02_Task_13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_13\obj\Debug\net6.0\Sem_02_Task_13.AssemblyInfoInputs.cache
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_13\obj\Debug\net6.0\Sem_02_Task_13.AssemblyInfo.cs
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_13\obj\Debug\net6.0\Sem_02_Task_13.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\bin\Debug\net6.0\Sem_02_Task_15.exe
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\bin\Debug\net6.0\Sem_02_Task_15.deps.json
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\bin\Debug\net6.0\Sem_02_Task_15.runtimeconfig.json
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\bin\Debug\net6.0\Sem_02_Task_15.dll
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\bin\Debug\net6.0\Sem_02_Task_15.pdb
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\Sem_02_Task_15.csproj.AssemblyReference.cache
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\Sem_02_Task_15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\Sem_02_Task_15.AssemblyInfoInputs.cache
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\Sem_02_Task_15.AssemblyInfo.cs
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\Sem_02_Task_15.csproj.CoreCompileInputs.cache
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\Sem_02_Task_15.dll
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\refint\Sem_02_Task_15.dll
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\Sem_02_Task_15.pdb
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\Sem_02_Task_15.genruntimeconfig.cache
+C:\Users\v.kotov\Desktop\Dz\SharpWorkshop\Sem_02_Task_15\obj\Debug\net6.0\ref\Sem_02_Task_15.dll
