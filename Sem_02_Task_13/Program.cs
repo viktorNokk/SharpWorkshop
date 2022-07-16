@@ -6,7 +6,11 @@ int SomeDigital(int num)
 }
 
 Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine()); //убрать to int32
+
+// проверить правильность строки (проверка на то, что это действительно число)
+// проверка на длину if (number.length > 2)
+// return number[1]
 
 int dig = SomeDigital(number);
 
