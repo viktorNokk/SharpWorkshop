@@ -1,18 +1,9 @@
 ﻿//Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-
-int SomeDigital(int num)
-{
-    int some = num %10;
-    return some;
-}
-
+Console.Clear();
 Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-
-int dig = SomeDigital(number);
-
-Console.WriteLine($"второе число в {number} это {dig}");
-
+string number = Console.ReadLine();
+string str = number.ToString();
+Console.WriteLine(str[1]);
 
 
 
