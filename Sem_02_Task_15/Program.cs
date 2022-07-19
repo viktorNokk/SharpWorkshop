@@ -1,5 +1,5 @@
 ﻿//Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным
-Console.Clear();
+//Console.Clear();
 bool Day(int number)
 {
     if (number >= 1 && number < 6) return false;
