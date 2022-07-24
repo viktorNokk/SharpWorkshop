@@ -3,7 +3,7 @@ Console.Clear();
 Console.Write("Введите число: ");
 string number = Console.ReadLine();
 string str = number.ToString();
-Console.WriteLine(str[2]);
+Console.WriteLine(str[1]);
 
 
 
