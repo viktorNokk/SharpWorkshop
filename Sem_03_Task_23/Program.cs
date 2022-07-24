@@ -4,15 +4,20 @@
 5 -> 1, 8, 27, 64, 125
 */
 
-int n;
+void Cube(int n)
+{
+    for (int i = 1; i <= n; i++)
+    {
+        int cube = i * i * i;
+        Console.Write(cube + ", ");
+    }
+}
 
 Console.Write("Input N: ");
-n = Convert.ToInt32(Console.ReadLine());
+int currentN = Convert.ToInt32(Console.ReadLine());
+Cube(currentN);
 
-for (int i = 1; i <= n; i++)
-{
-    Console.WriteLine(i*i*i);
-}
+
 
 
 
