@@ -29,6 +29,7 @@ int CountPositiveNum(int[] array)
     return count;
 }
 
+
 void ShowArray(int[] array)
 
 {
@@ -46,7 +47,7 @@ ShowArray(array2);
 
 int countArr = CountPositiveNum(array2);
 
-Console.WriteLine("Count of pissitive numbers in array  is " + countArr);
+Console.WriteLine("Count of pissitive numbers in array is " + countArr);
 
 
 
