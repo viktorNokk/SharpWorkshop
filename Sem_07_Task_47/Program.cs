@@ -5,25 +5,26 @@
 * 8 7,8 -7,1 9
 */
 
-double[,] Create2dArray(double rows, double columns, double minValue, double maxValue)
+void PrintArray(double[,] matr)
 {
-    double[,] newArray = new double[rows, columns];
-
-    for(int i = 0; i < rows; i++);
-        for(int j = 0; j < columns; j++)
-            newArray[i, j] = new Random().NextDouble(minValue, maxValue + 1);
-
-    return newArray;    
+    for (int i = 0; i < matr.GetLength(0); i++) 
+    {
+        for (int j = 0; j < matr.GetLength(1); j++) 
+        {
+            Console.Write($"{matr[i, j]} ");
+        }
+    Console.WriteLine();
+    }
 }
 
-void Show2dArray(double[,] array)
+void FillArray(double[,] matr)
 {
-    for(int i = 0; i < array.GetLength(0); i++)
+    for (int  i = 0;  i < matr.GetLength(0);  i++)
     {
-        for(int j = 0; j < array.GetLength(1); j++)
-            Console.Write(array[i,j] + " ");
-
-        Console.WriteLine();
+        for (int j = 0; j < matr.GetLength(1); j++)
+        {
+            matr[i, j] = new Random().NextDouble()*10; 
+        }
     }
 }
 
@@ -31,13 +32,53 @@ Console.Write("Input m rows: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input n columns: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input min possible value: ");
-double min = Convert.ToDouble(Console.ReadLine()); 
-Console.Write("Input max possible value: ");
-double max = Convert.ToDouble(Console.ReadLine()); 
+double[,] matrix = new double[m, n];
+FillArray(matrix);
+Console.WriteLine();
+PrintArray(matrix);
 
-int[,] myArray = Create2dArray(m, n, min, max);
-Show2dArray(myArray);
+
+
+
+
+
+
+
+
+
+// double[,] Create2dArray(double rows, double columns, double minValue, double maxValue)
+// {
+//     double[,] newArray = new double[rows, columns];
+
+//     for(int i = 0; i < rows; i++);
+//         for(int j = 0; j < columns; j++)
+//             newArray[i, j] = new Random().NextDouble(minValue, maxValue + 1);
+
+//     return newArray;    
+// }
+
+// void Show2dArray(double[,] array)
+// {
+//     for(int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for(int j = 0; j < array.GetLength(1); j++)
+//             Console.Write(array[i,j] + " ");
+
+//         Console.WriteLine();
+//     }
+// }
+
+// Console.Write("Input m rows: ");
+// int m = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input n columns: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input min possible value: ");
+// double min = Convert.ToDouble(Console.ReadLine()); 
+// Console.Write("Input max possible value: ");
+// double max = Convert.ToDouble(Console.ReadLine()); 
+
+// int[,] myArray = Create2dArray(m, n, min, max);
+// Show2dArray(myArray);
 
 
 /*
