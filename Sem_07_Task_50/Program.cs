@@ -66,10 +66,6 @@ FillArray(matrix);
 PrintArray(matrix);
 
 if (FindNumMatr(matrix, positionX, positionY) > 0)
-{
     Console.WriteLine("Value at position (X;Y): " + FindNumMatr(matrix, positionX, positionY));
-}
 else
-{
     Console.WriteLine("There is no such value!");
-}

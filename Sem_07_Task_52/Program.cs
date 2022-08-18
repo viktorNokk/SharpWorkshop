@@ -18,7 +18,6 @@ void PrintArray(int[,] matr)
     }
 }
 
-
 void FillArray(int[,] matr)
 {
     for (int  i = 0;  i < matr.GetLength(0);  i++)
@@ -30,8 +29,6 @@ void FillArray(int[,] matr)
     }
 }
 
-
-
 void AverageColumns(int[,] matr)
 {
     double sum = 0;
@@ -42,7 +39,7 @@ void AverageColumns(int[,] matr)
         {
             sum += matr[i, j];
         }
-        Console.Write($"{ sum / matr.GetLength(1)} ");
+        Console.Write($"{ sum / matr.GetLength(0)} ");
     }
 }
 
@@ -55,4 +52,5 @@ FillArray(matrix);
 Console.WriteLine();
 PrintArray(matrix);
 Console.WriteLine();
+Console.WriteLine("Quantity of numbers in a column: " + matrix.GetLength(0));
 AverageColumns(matrix);
