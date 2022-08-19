@@ -40,6 +40,7 @@ void AverageColumns(int[,] matr)
             sum += matr[i, j];
         }
         Console.Write($"{ sum / matr.GetLength(0)} ");
+        sum = 0;
     }
 }
 
