@@ -6,50 +6,58 @@
 5 2 6 7
 Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка
 */
+Console.Clear();
 
-void PrintArray(int[,] matr)
+void FillArray(int[,] array)
 {
-    for (int i = 0; i < matr.GetLength(0); i++) 
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < matr.GetLength(1); j++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write($"{matr[i, j]} ");
+            array[i, j] = new Random().Next(1, 10);
+        }
+    }
+}
+
+void PrintArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++) 
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write($"{array[i, j]} ");
         }
     Console.WriteLine();
     }
 }
 
-void FillArray(int[,] matr)
+int[,] array = new int[4, 4];
+
+int minSumRow = 0;
+int sumRow = SumRowElements(array, 0);
+for (int i = 1; i < array.GetLength(0); i++)
 {
-    for (int  i = 0;  i < matr.GetLength(0);  i++)
+    int temp = SumRowElements(array, i);
+
+    if (sumRow > temp)
     {
-        for (int j = 0; j < matr.GetLength(1); j++)
-        {
-            matr[i, j] = new Random().Next(-50,50);
-        }
+        sumRow = temp;
+        minSumRow = i;
     }
 }
 
-int minSumRows = 0;
-int sumRows = SumRowNumbers(matr, 0);
-for (int i = 1; i < matr.GetLength(0); i++)
+int SumRowElements(int[,] array, int i)
 {
-    int tmp = SumRowNumbers(matr,i);
-    if (sumRows < tmp)
+    int sumRow = array[i, 0];
+    for (int j = 1; j < array.GetLength(1); j++)
     {
-        sumRows = tmp;
-        minSumRows = i;
+        sumRow += array[i, j];
     }
+    return sumRow;
 }
 
-int SumRowNumbers(int[,] matr, int i)
-{
-    int sumRows = matr[i, 0];
-    for (int j = 1; j < matr.GetLength(1); j++)
-    {
-        sumRows += matr[i,j];
-    }
-    return sumRows;
-}
+FillArray(array);
+PrintArray(array);
+Console.WriteLine("String with minimum sum of elements is: " + (minSumRow + 1));
 
-Console.WriteLine("string with min sum is: " + (minSumRows + 1));
+
